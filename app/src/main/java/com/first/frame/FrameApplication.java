@@ -34,10 +34,10 @@ public class FrameApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        HotFixDexUtil.startRepair(getApplicationContext());//开启热修复
+//        HotFixDexUtil.startRepair(getApplicationContext());//开启热修复
         mContext = getApplicationContext();
         instance = this;
-        initLanguage();
+//        initLanguage();
         initNetworking();
 
     }

@@ -5,14 +5,23 @@
       <map>
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.228125" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/drawable/bg_btn_logout.xml" value="0.3625" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/drawable/button_login_normal.xml" value="0.29791666666666666" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/drawable/button_login_pressed.xml" value="0.29791666666666666" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/drawable/button_login_state.xml" value="0.29791666666666666" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/drawable/shape_login_background.xml" value="0.29791666666666666" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/drawable/shape_login_frame.xml" value="0.29791666666666666" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/activity_login.xml" value="0.33061594202898553" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/activity_login1.xml" value="0.302536231884058" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/activity_main.xml" value="0.2857789855072464" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/activity_splash.xml" value="0.26766304347826086" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/activity_test_hotdex.xml" value="0.26510416666666664" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/activity_video_player.xml" value="0.340625" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/dialog_layout.xml" value="0.33967391304347827" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/dialog_logout.xml" value="0.2857789855072464" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/item_img_vpage.xml" value="0.2857789855072464" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/progress_layout.xml" value="0.2857789855072464" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/simple_button_dialog.xml" value="0.2857789855072464" />
+        <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/test.xml" value="0.16666666666666666" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/toast.xml" value="0.2857789855072464" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/toast_view.xml" value="0.2857789855072464" />
         <entry key="..\:/ASWorkSpase/LippFrame/app/src/main/res/layout/top_view.xml" value="0.2857789855072464" />
@@ -24,7 +33,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

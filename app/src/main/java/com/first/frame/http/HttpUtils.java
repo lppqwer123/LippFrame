@@ -10,7 +10,6 @@ import com.androidnetworking.interfaces.AnalyticsListener;
 import com.first.frame.FrameApplication;
 import com.first.frame.R;
 import com.first.frame.utils.LogUtils;
-import com.first.frame.utils.NetWorkUtils;
 import com.first.frame.utils.Sha256HmacUtils;
 
 import org.json.JSONObject;

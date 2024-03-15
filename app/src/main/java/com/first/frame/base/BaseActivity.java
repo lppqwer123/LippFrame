@@ -5,6 +5,8 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -30,6 +32,7 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
+
 import pub.devrel.easypermissions.EasyPermissions;
 import pub.devrel.easypermissions.PermissionRequest;
 
@@ -43,6 +46,8 @@ public class BaseActivity extends FragmentActivity implements EasyPermissions.Pe
 
     @Override
     public void setContentView(@LayoutRes int layoutResID) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE); //去掉标题栏
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);  //防止截屏
         super.setContentView(layoutResID);
         initTopView();
         initView();

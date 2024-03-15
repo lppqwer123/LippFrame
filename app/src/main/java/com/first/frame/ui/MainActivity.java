@@ -27,9 +27,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(LayoutInflater.from(this));
         setContentView(binding.getRoot());
-
         EventBus.getDefault().register(this);
-
     }
 
     @Override

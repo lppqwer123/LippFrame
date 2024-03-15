@@ -26,7 +26,7 @@ public class SplashActivity extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-//                if (SPHttpUtils.getInstance().getBoolean(Constants.SP_KEY.IS_FIRST_ENTER_LOGIN,true)) {
+//                if (SPHttpUtils.getInstance().getBoolean(Constants.SP_KEY.IS_FIRST_ENTER_LOGIN, true)) {
 //                    startActivity(new Intent(SplashActivity.this, GuildPageActivity.class));
 //                } else {
                     startActivity(new Intent(SplashActivity.this, MainActivity.class));
