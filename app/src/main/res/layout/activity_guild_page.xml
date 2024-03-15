@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.first.frame.view.dotview.DotView
+        android:id="@+id/dotview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:dot_radius="3.5dp"
+        app:dot_span="7dp"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        app:dot_src="@drawable/dot_selector">
+    </com.first.frame.view.dotview.DotView>
+
+
+</RelativeLayout>

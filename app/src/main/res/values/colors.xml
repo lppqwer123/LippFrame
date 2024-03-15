@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000000</color>
+    <color name="progress_bg">#4d000000</color>
+    <color name="white_dot">#33ffffff</color>
+    <color name="red">#D31546</color>
+    <color name="light_pink">#FFF5FB</color>
+</resources>

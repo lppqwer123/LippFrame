@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BaseFrame</string>
+    <string name="error_internet">Internet Error</string>
+    <string name="loading">Loading</string>
+    <string name="saved_to_album">saved to album</string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="log_out">log out</string>
+
+</resources>
